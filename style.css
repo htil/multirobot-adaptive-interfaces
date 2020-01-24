@@ -1,0 +1,100 @@
+body {
+	background: #333;
+}
+
+h1 {
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+img {
+	box-shadow: 3px 3px 5px #222;
+	background-color: #AA3939;
+}
+
+.relative {
+	position: relative;
+}
+
+.floating-label, .floating-icon, .floating-nav {
+	position: absolute;
+	padding: 0.2em;
+	margin: 0.2em;
+	color: white;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.floating-label {
+	margin: 0 0.2em;
+}
+
+.floating-icon {
+	right: 0.2em;
+}
+
+.floating-nav {
+	bottom: 0.2em;
+	color: grey;
+}
+
+.selected {
+	color: #7A9F35;
+	font-weight: 800;
+}
+
+.hover-click {
+	cursor: pointer;
+}
+
+.hover-click:hover {
+	cursor: pointer;
+}
+
+i.hover-click:hover {
+	cursor: pointer;
+	background-color: #333333CC;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* Sizes */
+.small {
+	width: 320px;
+	height: 240px;
+	transition: all linear 0.5s;
+}
+
+.medium {
+	width: 640px;
+	height: 480px;
+	transition: all linear 0.5s;
+}
+
+.large {
+	width: 800px;
+	height: 600px;
+	transition: all linear 0.5s;
+}
+
+/* Material Icon Styles */
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
